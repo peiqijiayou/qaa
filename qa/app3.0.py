@@ -27,9 +27,9 @@ if st.sidebar.button("清空对话"):
     st.rerun()
 
 # 文件路径
-VECTOR_FILE = r"D:\Desktop\问答系统\qa_question_vectors.npy"  # 存储的向量文件
-HISTORY_FILE = r"D:\Desktop\问答系统\chat_history.json"
-QA_FILE = r"D:\Desktop\问答系统\qa_pairs_with_id.json"
+VECTOR_FILE = "qa/qa_question_vectors.npy"  # 存储的向量文件
+HISTORY_FILE = "qa/chat_history.json"
+QA_FILE = "qa/qa_pairs_with_id.json"
 
 # 加载QA对从本地文件
 def load_qa_pairs(file_path=QA_FILE):
@@ -64,7 +64,7 @@ def save_history(messages):
 # 加载 text2vec 中文语义匹配模型
 @st.cache_resource
 def load_model():
-    model = SentenceModel('shibing624/text2vec-base-chinese')  # 使用 text2vec 模型
+    model = SentenceTransformer('shibing624/text2vec-base-chinese')  # 使用 text2vec 模型
     return model
 
 model = load_model()
