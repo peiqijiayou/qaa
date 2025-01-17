@@ -1,5 +1,5 @@
-streamlit
+sentence-transformers>=2.2.2
 scikit-learn>=1.0.2
 numpy
 pandas
-sentence-transformers>=2.2.2
+openai
