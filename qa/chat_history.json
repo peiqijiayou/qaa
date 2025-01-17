@@ -1,0 +1,22 @@
+[
+    {
+        "role": "assistant",
+        "content": "您好，我是您的问答机器人，有什么可以帮您的吗？"
+    },
+    {
+        "role": "user",
+        "content": "正切函数的奇偶性如何？"
+    },
+    {
+        "role": "assistant",
+        "content": "正切函数 $y = \\tan x$ 是奇函数，因此其图像关于坐标原点对称。\n\n来源: 数学 必修 第二册 第七章 7.4 正切函数的图像与性质"
+    },
+    {
+        "role": "user",
+        "content": "正切函数在整个定义域上的单调性如何？"
+    },
+    {
+        "role": "assistant",
+        "content": "正切函数 $y = \\tan x$ 在区间 $\\left(k\\pi - \\frac{\\pi}{2}, k\\pi + \\frac{\\pi}{2}\\right) (k \\in \\mathbf{Z})$ 上为严格增函数。\n\n来源: 数学 必修 第二册 第七章 7.4 正切函数的图像与性质"
+    }
+]

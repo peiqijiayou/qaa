@@ -1,0 +1,1 @@
+打开终端，cd到当前目录，输入streamlit run app3.0.py
