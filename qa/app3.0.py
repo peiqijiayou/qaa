@@ -3,7 +3,7 @@ import json
 import numpy as np
 import os
 from sklearn.metrics.pairwise import cosine_similarity
-from text2vec import SentenceModel
+from sentence_transformers import SentenceModel
 import openai
 import re
 import time
