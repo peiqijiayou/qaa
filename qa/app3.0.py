@@ -75,7 +75,7 @@ def get_sentence_embedding(sentence):
     return embedding.reshape(1, -1)
 
 # DeepSeek API配置
-DEEPSEEK_API_KEY = "sk-3df88f6a2e72477aaa4c2108acd3a36c"  # 替换为实际的 DeepSeek API Key
+DEEPSEEK_API_KEY = "sk-e213508fd4324136a885053f25d471c2"  # 替换为实际的 DeepSeek API Key
 openai.api_key = DEEPSEEK_API_KEY
 openai.api_base = "https://api.deepseek.com"
 
