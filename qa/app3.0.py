@@ -200,7 +200,7 @@ else:
             final_answer = f"{a1}\n\n来源: {qa_pairs[most_similar_idx]['source']}"
         else:
             a2 = generate_answer(user_question)
-            final_answer = f"{a2}\n\n来源: DeepSeek V2.5"
+            final_answer = f"{a2}\n\n来源: DeepSeek V3.0"
 
         # 格式化LaTeX输出
         formatted_answer = format_latex_output(final_answer)
